@@ -32,7 +32,7 @@ public class Assignment2 {
                 }
                 catch (InputMismatchException e) {
                     System.out.print("INVALID TYPE. Choose an integer between 1-100: ");
-                    input.next();
+                    input.nextLine();
                     continue;
                 }
                 if (userGuess >= 1 && userGuess <= 100) {
