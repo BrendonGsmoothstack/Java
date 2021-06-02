@@ -25,6 +25,7 @@ public class assignment1 {
         The number of stars decreases with each iteration. The value of the inner loop counter 'j' 
         is dependent on the value of the outer loop 'i'. The function starts by printing 4 stars 
         and then decreases to 3, 2, and 1 stars. */
+
         System.out.println("2)");
         System.out.println("..........");
 
@@ -42,6 +43,7 @@ public class assignment1 {
         spaces and the number of spaces printed decreases with each iteration. Inner loop prints 
         out 5, 4, 3, and then 2 spaces. Outer for-loop prints the string and then concatenates it
         with 2 more stars before running again. At the end, print out a line of 11 dots. */
+
         System.out.println("3)");
         String starsP3 = "*";
 
@@ -64,6 +66,7 @@ public class assignment1 {
         The first nested loop prints out spaces, the second one prints out "*". The counters
         'j' and 'k' for both loops depend on the counter of the outer loop 'i'. The first loop
         prints out 2, 3, 4, then 5 spaces. The second loop prints out 7, 5, 3, then 1 stars. */
+        
         System.out.println("4)");
         System.out.println("............");
         
