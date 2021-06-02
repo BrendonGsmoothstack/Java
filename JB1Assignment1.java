@@ -1,6 +1,6 @@
 package Smoothstack;
 
-public class Assignment1 {
+public class JB1Assignment1 {
     public static void main(String[] args) {
 
         //---PROBLEM #1---//
