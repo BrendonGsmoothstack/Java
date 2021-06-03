@@ -10,7 +10,8 @@ public class JB2_A1 {
 	 * This program checks if there were any parameters passed to the main class
 	 * before running. If there are parameters, it iterates over the entire args
 	 * array and checks if each element can be converted to 'double' type. If it
-	 * can be, convert it and add its value to the total 'sum'. If not, catch the
+	 * can be, convert it, add its value to the total 'sum', and print out information
+	 * about its value and its position in the array. If it can't be, catch the
 	 * error and print out a statement about the element. 
 	 */
 	public static void main(String[] args) {
