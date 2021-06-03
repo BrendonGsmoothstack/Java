@@ -38,8 +38,8 @@ class Rectangle implements Shape {
 
     @Override
     public void calculateArea() {
-        width = rand.nextInt(21);
-        height = rand.nextInt(21);
+        width = rand.nextInt(20) + 1;
+        height = rand.nextInt(20) + 1;
         area = width * height;
     }
 
@@ -61,7 +61,7 @@ class Circle implements Shape {
 
     @Override
     public void calculateArea() {
-        radius = rand.nextInt(21);
+        radius = rand.nextInt(20) + 1;
         //area = Math.round((Math.PI * Math.pow(radius, 2)));
         area = (Math.PI * Math.pow(radius, 2));
     }
@@ -85,8 +85,8 @@ class Triangle implements Shape {
 
     @Override
     public void calculateArea() {
-        width = rand.nextInt(21);
-        height = rand.nextInt(21);
+        width = rand.nextInt(20) + 1;
+        height = rand.nextInt(20) + 1;
         area = (0.5 * width * height);
     }
 
