@@ -1,6 +1,10 @@
 package Smoothstack;
 import java.util.Random;
 
+/**
+ * @author Brendon 
+ * This program is for Java Basics 2 Assignment 2
+ */
 public class JB2_A2 {
     public static void main(String[] args) {
         // Create a 5x5 2D array and create a new random object. 
