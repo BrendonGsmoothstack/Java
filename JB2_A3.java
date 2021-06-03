@@ -1,6 +1,11 @@
 package Smoothstack;
 import java.util.Random;
 
+/**
+ * @author Brendon 
+ * This program is for Java Basics 2 Assignment 3
+ */
+
 /* One object is created for each of the three classes Rectangle, Circle, and Triangle. The 
 dimensions of the objects are then calculated and displayed. */
 public class JB2_A3 {
