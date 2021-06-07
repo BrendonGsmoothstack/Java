@@ -1,0 +1,26 @@
+1. Which class would you use to store your birthday in years, months, days, seconds, and nanoseconds?
+LocalDateTime class.
+
+2. Given a random date, how would you find the date of the previous Thursday?
+Using the previous method of a TemporalAdjuster
+
+3. What is the difference between a ZoneId and a ZoneOffset?
+Both of them track an offset from Greenwich/UTC time, but ZoneOffset 
+ONLY tracks the absolute offset from Greenwich/UTC. ZoneId also uses 
+ZoneRules to determine how an offset varies for a particular time of year/region.
+
+4. How would you convert an Instant to a ZonedDateTime? How would you convert a ZonedDateTime to an Instant?
+
+You can convert an Instant to ZonedDateTime by using the ZonedDateTime.ofInstant 
+method. You also need to provide a ZoneId:
+
+ZonedDateTime abc = ZonedDateTime.ofInstant(Instant.now(), ZoneId.systemDefault());
+
+You can also use the Instant.atZone method:
+
+ZonedDateTime abc = Instant.now().atZone(ZoneId.systemDefault());
+
+You can use the toInstant method in the ChronoZonedDateTime interface, implemented 
+by the ZonedDateTime class, to convert from a ZonedDateTime to an Instant:
+
+Instant inst = ZonedDateTime.now().toInstant();
